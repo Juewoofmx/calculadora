@@ -1,4 +1,4 @@
-from datetime import datetime
+from datetime import datetime, timedelta
 
 def calcular_estadia(fecha_inicio: str, fecha_salida: str, numero_perros: int) -> float:
     # Lista de fechas de temporada alta
